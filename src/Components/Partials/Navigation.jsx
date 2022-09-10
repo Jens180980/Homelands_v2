@@ -25,15 +25,15 @@ export const BurgerNav = () => {
   return (
     <nav className={Style.burgerNav}>
       <Menu right>
-        <a id="home" className="menu-item" href="/">
+        <NavLink id="home" className="menu-item" to="/">
           Forside
-        </a>
-        <a id="list" className="menu-item" href="/list">
+        </NavLink>
+        <NavLink id="list" className="menu-item" to="/list">
           Boliger til salg
-        </a>
-        <a id="login" className="menu-item" href="/login">
+        </NavLink>
+        <NavLink id="login" className="menu-item" to="/login">
           Login
-        </a>
+        </NavLink>
       </Menu>
     </nav>
   );
