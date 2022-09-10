@@ -1,20 +1,10 @@
-
-
 @font-face {
-    font-family: 'Trebuchet MS';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Trebuchet MS'), url('trebuc.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Trebuchet MS Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Trebuchet MS Italic'), url('Trebuchet-MS-Italic.woff') format('woff');
-    }
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trebuchet MS"), url("trebuc.woff") format("woff");
+}
 
 .body {
-    font-family: 'Trebuchet MS';
+  font-family: "Trebuchet MS";
 }
