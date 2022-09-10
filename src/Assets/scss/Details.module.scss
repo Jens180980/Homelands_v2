@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ 
+.imgWrapper {
+    position: relative;
+    z-index: -6;
+    height: 70vh;
+    overflow: hidden;
+    margin-top: -5rem;
+}
+
+.hero {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    
+}
+
+.textWrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin: -10rem 2rem 0 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    h3{
+        font-size: 2rem;
+    }
+
+    p {
+        color: rgb(107, 107, 107);
+    }
+
+    .priceTxt {
+        color: black;
+
+        span {
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+.topmiddle {
+    img {
+        cursor: pointer;
+    }
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin: 0 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    article {
+        margin-right: 20rem;
+    }
+}

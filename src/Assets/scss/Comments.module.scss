@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.comments {
+    margin: 4rem 0;
+    text-align: center;
+
+    .existing {
+        background-color: #fed9c9;
+        padding: 2rem 5rem;
+        margin: 1rem 0;
+
+        p {
+            margin: 1rem 0;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+
+        .title {
+            font-size: 1rem;
+        }
+    }
+
+    .click {
+        background-color: transparent;
+        border: none;
+        color: blue;
+        cursor: pointer;
+    }
+
+    .form {
+        margin: 2rem;
+
+        input {
+            padding: 1rem 2rem;
+            margin: 0.5rem 0;
+            width: 20%;
+        }
+
+        ::placeholder {
+            text-align: center;
+        }
+
+        button {
+            width: 20%;
+            margin: 1rem 0;
+            padding: 0.5rem 0;
+            border: none;
+            cursor: pointer; 
+        }
+    }
+}

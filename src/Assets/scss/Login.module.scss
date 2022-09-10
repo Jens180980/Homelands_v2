@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.compWrapper {
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        padding: 1rem 2rem;
+        margin: 0.5rem 0;
+    }
+
+    button {
+        width: 100%;
+        padding: 1rem 2rem;
+        border: none;
+        margin: 0.5rem 0;
+        cursor: pointer;
+    }
+}

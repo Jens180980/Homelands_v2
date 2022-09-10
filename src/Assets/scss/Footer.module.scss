@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+
+    .wrapper {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: rgb(233, 233, 233);
+            }
+        }
+
+        .right {
+            a {
+                margin: 0 1rem;
+            }
+        }
+    }
+}
