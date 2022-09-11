@@ -38,7 +38,7 @@ export const Modal = ({ home_id }) => {
             homeDetails.images.map((item) => {
               return (
                 <div key={item.id}>
-                  <img src={item.filename.large} />
+                  <img src={item.filename.large} alt="house" />
                 </div>
               );
             })}
